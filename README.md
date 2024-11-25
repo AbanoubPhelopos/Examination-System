@@ -1,6 +1,6 @@
 # Examination System
 
-The Examination System is a versatile application designed to manage exams and questions for various subjects. This system supports both **Final Exams** and **Practical Exams**, with functionalities tailored to meet distinct requirements for each type.
+The Examination System is a console application designed to manage exams and questions for various subjects. It supports both Final Exams and Practical Exams, with functionalities tailored to meet distinct requirements for each type.
 
 ## Features
 
@@ -85,10 +85,3 @@ The Examination System is a versatile application designed to manage exams and q
 
 Feel free to fork this repository and contribute to improving the Examination System. All contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Start building robust and versatile examination systems with ease!
