@@ -1,0 +1,15 @@
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\bin\Debug\net8.0\Examination_System.exe
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\bin\Debug\net8.0\Examination_System.deps.json
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\bin\Debug\net8.0\Examination_System.runtimeconfig.json
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\bin\Debug\net8.0\Examination_System.dll
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\bin\Debug\net8.0\Examination_System.pdb
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.AssemblyInfoInputs.cache
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.AssemblyInfo.cs
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.csproj.CoreCompileInputs.cache
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.sourcelink.json
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.dll
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\refint\Examination_System.dll
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.pdb
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\Examination_System.genruntimeconfig.cache
+C:\Users\Abanoub Saweris\RiderProjects\Examination_System\Examination_System\obj\Debug\net8.0\ref\Examination_System.dll
