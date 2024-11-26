@@ -1,8 +1,8 @@
 ﻿
 
-using Examination_System;
+using Examination_System.UI;
 
-ApplicationUi.StartPoint();
+IdentityUi.StartPoint();
 
 
 

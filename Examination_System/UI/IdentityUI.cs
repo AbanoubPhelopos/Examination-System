@@ -1,8 +1,9 @@
+using Examination_System.Data;
 using Examination_System.User;
 
-namespace Examination_System;
+namespace Examination_System.UI;
 
-public static class ApplicationUi
+public static class IdentityUi
 {
     public static void StartPoint()
     {
@@ -15,15 +16,45 @@ public static class ApplicationUi
             case 1:
                 Login();
                 break;
+            case 2:
+                Register();
+                break;
+            case 3:
+                return;
+            default:
+                Console.WriteLine("Invalid choice");
+                StartPoint();
+                break;
         }
     }
 
     private static void Login()
     {
         Console.Clear();
-        Console.Write("Please enter your username: ");
+        Console.Write("Username: ");
         string? username = Console.ReadLine();
-        Console.Write("Please enter your password: ");
+        Console.Write("Password: ");
+        string password = ReadPassword();
+        Console.WriteLine();
+        IdentityManager.Login(username, password);
+    }
+
+    private static void Register()
+    {
+        Console.Clear();
+        Console.Write("Name : ");
+        string? name = Console.ReadLine();
+        Console.Write("Username: ");
+        string? username = Console.ReadLine();
+        Console.Write("Password: ");
+        string password = ReadPassword();
+        User.User user = new Student(name, username, password);
+        ApplicationDb.Users.Add(user);
+        StartPoint();
+    }
+
+    private static string ReadPassword()
+    {
         string password = string.Empty;
         ConsoleKeyInfo key;
         do
@@ -43,8 +74,7 @@ public static class ApplicationUi
         }
         while (key.Key != ConsoleKey.Enter);
 
-        Console.WriteLine();
-        IdentityManager.Login(username, password);
+        return password;
     }
     
 }
