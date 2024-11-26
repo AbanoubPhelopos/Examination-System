@@ -18,4 +18,6 @@ public abstract class User
         Password = password;
         UserName = userName;
     }
+
+    public abstract void RoleBaseUi();
 }

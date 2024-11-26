@@ -1,6 +1,4 @@
-using System.Threading.Channels;
 using Examination_System.Data;
-
 namespace Examination_System.User;
 
 public static class IdentityManager
@@ -17,7 +15,7 @@ public static class IdentityManager
         {
             if(password == user.Password)
             {
-                Console.WriteLine(user.Role);
+                user.RoleBaseUi();
                 return true;
             }
         }
